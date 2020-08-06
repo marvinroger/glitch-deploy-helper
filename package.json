@@ -1,0 +1,30 @@
+{
+  "name": "glitch-deploy-helper",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "homepage": "https://github.com/marvinroger/glitch-deploy-helper",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marvinroger/glitch-deploy-helper.git"
+  },
+  "author": {
+    "name": "Marvin ROGER",
+    "email": "dev@marvinroger.fr",
+    "url": "https://www.marvinroger.fr"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.27",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "simple-git": "^2.17.0"
+  }
+}
