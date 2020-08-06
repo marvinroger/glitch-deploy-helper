@@ -1,5 +1,6 @@
 {
   "name": "glitch-deploy-helper",
+  "description": "A simple Node.js library to help auto-deploying from Git on Glitch",
   "version": "1.0.0",
   "license": "MIT",
   "main": "./lib/index.js",
