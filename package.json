@@ -1,7 +1,7 @@
 {
   "name": "glitch-deploy-helper",
   "description": "A simple Node.js library to help auto-deploying from Git on Glitch",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "license": "MIT",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -27,5 +27,8 @@
   },
   "dependencies": {
     "simple-git": "^2.17.0"
-  }
+  },
+  "files": [
+    "lib/"
+  ]
 }

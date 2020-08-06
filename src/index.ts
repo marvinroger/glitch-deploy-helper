@@ -1,5 +1,5 @@
 import { promisify } from 'util'
-import fs from 'fs'
+import * as fs from 'fs'
 import simpleGit from 'simple-git'
 
 const git = simpleGit();
